@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Responsive */
+
+@media (max-width: 768px) {
+  .menu-noticias {
+      flex-direction: column;
+  }
+  .noticia {
+      width: 100%;
+      padding: 0 25px;
+      border-right: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .affix {
+      width: calc(750px - 30px) !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .affix {
+      width: calc(970px - 30px) !important;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .affix {
+      width: calc(1170px - 30px) !important;
+  }
+}

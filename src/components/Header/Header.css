@@ -4,7 +4,7 @@
 
 #title {
     font-family: 'Conv_Roboto-Black';
-    font-size: 36px;
+    font-size: 77px;
     line-height: 42px;
     color: #b10012;
     font-weight: 600;
@@ -40,7 +40,7 @@
 
 .affix {
     top: 0;
-    width: calc(100% - 30px) !important;
+    width: calc(100% - 30px);
     z-index: 16 !important;
 }
 

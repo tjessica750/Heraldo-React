@@ -1,6 +1,5 @@
 import React,  { Fragment} from 'react';
 import  './Footer.css';
-import './heraldo-v3.css'
 
 
 const Footer = ({año}) => {
